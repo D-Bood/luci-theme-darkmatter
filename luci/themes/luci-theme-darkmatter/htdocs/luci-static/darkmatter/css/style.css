@@ -1392,7 +1392,9 @@ input[name=nslookup] {
 }
 
 .notice {
-    background-color: #5BC0DE
+    background-color: #3f3e3a;
+    color: #fff;
+    overflow-y:hidden;
 }
 
 .darkMask {
