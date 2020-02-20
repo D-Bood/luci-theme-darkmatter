@@ -2,7 +2,7 @@
 body,
 html {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 abbr,
@@ -340,10 +340,6 @@ footer>a {
     text-decoration: inherit
 }
 
-.nav {
-    padding: 0
-}
-
 .main>.main-left>.nav>.slide>a.menu.active,
 .main>.main-left>.nav>li {
     border-bottom: 1px solid #0f0e0a
@@ -386,8 +382,7 @@ h3 {
 }
 
 .main>.main-left>.nav>.slide>ul {
-    display: none;
-    padding: 0;
+    display: none
 }
 
 .main>.main-left>.nav>.slide>.menu {
@@ -600,7 +595,7 @@ h3 {
 .table .tr .td,
 .table .tr .th {
     white-space: nowrap;
-	  padding: 7.5px 10px;
+    padding: 7.5px 10px;
 }
 
 .table .tr {
@@ -1397,9 +1392,7 @@ input[name=nslookup] {
 }
 
 .notice {
-    background-color: #3f3e3a;
-    color: #fff;
-    overflow-y:hidden;
+    background-color: #5BC0DE
 }
 
 .darkMask {
@@ -2437,4 +2430,9 @@ body.modal-overlay-active #modal_overlay {
  white-space:pre;
  overflow:hidden;
  text-overflow:ellipsis
+}
+
+/* Passwall status dock background color */
+.block {
+ background-color: #3f3e3a !important;
 }
