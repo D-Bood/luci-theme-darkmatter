@@ -2475,3 +2475,7 @@ body.modal-overlay-active #modal_overlay {
 .block {
  background-color: #3f3e3a !important;
 }
+
+#status_tcp_node,#status_udp_node,#status_socks5_node,#status_dns,#status_haproxy,#status_kcptun,#status_baidu,#status_google {
+ padding: 0 !important;
+}
