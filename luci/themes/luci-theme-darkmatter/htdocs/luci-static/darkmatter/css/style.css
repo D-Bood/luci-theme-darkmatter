@@ -2,7 +2,7 @@
 body,
 html {
     margin: 0;
-    padding: 0
+    padding: 0notice
 }
 
 abbr,
@@ -340,6 +340,10 @@ footer>a {
     text-decoration: inherit
 }
 
+.nav {
+    padding: 0
+}
+
 .main>.main-left>.nav>.slide>a.menu.active,
 .main>.main-left>.nav>li {
     border-bottom: 1px solid #0f0e0a
@@ -382,7 +386,8 @@ h3 {
 }
 
 .main>.main-left>.nav>.slide>ul {
-    display: none
+    display: none;
+    padding: 0;
 }
 
 .main>.main-left>.nav>.slide>.menu {
@@ -595,7 +600,7 @@ h3 {
 .table .tr .td,
 .table .tr .th {
     white-space: nowrap;
-    padding: 7.5px 10px;
+	  padding: 7.5px 10px;
 }
 
 .table .tr {
@@ -1391,7 +1396,9 @@ input[name=nslookup] {
 }
 
 .notice {
-    background-color: #5BC0DE
+    background-color: #3f3e3a;
+    color: #fff;
+    overflow-y:hidden;
 }
 
 .darkMask {
@@ -2373,11 +2380,11 @@ body.modal-overlay-active #modal_overlay {
 }
 
 .cbi-dropdown[open] > ul.dropdown > li[selected] {
-	background: #b0d0f0;
+	background: #2f2e2a;
 }
 
 .cbi-dropdown[open] > ul.dropdown > li.focus {
-	background: linear-gradient(90deg, #a3c2e8 0%, #84aad9 100%);
+	background: linear-gradient(90deg, #2f2e2a 0%, #2f2e2a 100%);
 }
 
 .cbi-dropdown[open] > ul.dropdown > li:last-child {
