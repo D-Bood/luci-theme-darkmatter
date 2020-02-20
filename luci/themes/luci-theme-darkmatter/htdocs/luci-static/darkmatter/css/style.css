@@ -79,6 +79,11 @@ h6 {
     color: inherit
 }
 
+h4,
+em {
+    padding: .5rem;
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -609,7 +614,7 @@ h3 {
 
 .table .tr .td,
 .table .tr .th {
-    white-space: nowrap;
+    /* white-space: nowrap; */
     padding: 7.5px 10px;
 }
 
@@ -912,8 +917,8 @@ form.inline+form.inline {
     line-height: 1.25;
 }
 .table .td.cbi-value-field {
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .cbi-value-description:before {
