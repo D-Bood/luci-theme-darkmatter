@@ -636,7 +636,8 @@ h3 {
     width: 100% !important;
     height: 1.2rem !important;
     background: #1f1e1a;
-    border: 1px solid #000 !important
+    border: 1px solid #000 !important;
+    max-width: initial !important;
 }
 
 #cpu_free>div>div,
